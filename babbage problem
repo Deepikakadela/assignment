@@ -1,3 +1,5 @@
+http://rosettacode.org/wiki/Babbage_problem
+
 let rec f a=
 if (a*a) mod 1000000 != 269696
 then f(a+1)
