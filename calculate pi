@@ -1,3 +1,7 @@
+http://rosettacode.org/wiki/Arithmetic-geometric_mean/Calculate_Pi
+
+
+
 let limit = 10000 and n = 2800
 let x = Array.make (n+1) 2000
  
