@@ -1,0 +1,15 @@
+EXPONENTIATION ORDER
+
+CODE:
+
+# 5. ** 2. **3. ;;
+# 5. ** (2. ** 3.);;
+#(5. ** 2.)**3. ;;
+
+OUTPUT
+
+- :  float = 15625.
+- :  float = 390625.
+- :  float = 15625.
+
+http://rosettacode.org/wiki/Exponentiation_order#.7B.7Bheader.7COCaml.7D.7D
