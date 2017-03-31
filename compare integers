@@ -1,0 +1,16 @@
+
+
+CODE
+
+#let max a b =
+if a!= b then
+if a>b then Printf.printf  "%d is greater than %d"   a b      else  Printf.printf  "%d is less than %d"  a b
+else 
+print_string "numbers are equal" ;;
+
+OUTPUT
+
+# max 4 4 ;;
+numbers are equal
+# max 4 5 ;;
+4 is less than 5
